@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "osucombo",
+	"version": "${version}",
+	"name": "Osu Combo",
+	"description": "Счётчик комбо в стиле osu! для PvP: считает удары по игрокам, сбрасывается при промахе или через 4 секунды. Цифры вылетают по порядку комбо.",
+	"authors": [
+		"you"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.osucombo.OsuComboClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
