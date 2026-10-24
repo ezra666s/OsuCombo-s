@@ -1,5 +1,7 @@
 build/
 out/
+bin/
 .idea/
 *.iml
 gradle/wrapper/caches/
+.gradle/
